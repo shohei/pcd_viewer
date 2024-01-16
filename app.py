@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import tempfile 
 import os
 
-st.title("Point Cloud Downsampler")
+st.title("Point Cloud Viewer")
 tempfile_dir = tempfile.TemporaryDirectory()
 file = st.sidebar.file_uploader("Choose file")
 
